@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
+import Footer from './Footer';
 
 import '../App.css';
 
@@ -31,7 +32,9 @@ function PortfolioContainer() {
           {
            renderPage()
           }
+          
         </div>
+        <Footer></Footer>
       </div>
     );
   }
