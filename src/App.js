@@ -1,15 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
+import PortfolioContainer from "./components/PortfolioContainer";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div>
-      <Header></Header>
-      
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
