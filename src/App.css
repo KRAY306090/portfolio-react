@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap');
 
 :root {
@@ -28,6 +27,29 @@ h1 {
     color: var(--secondary-color);
     text-decoration: none;
     border-bottom: 1px solid var(--secondary-color);
+}
+
+/* About Styles */
+.about-box {
+    background-color: var(--secondary-color);
+}
+
+.profile-pic {
+    max-height: 500px;
+    border-radius: 100px;
+}
+
+.section-title {
+    font-family: 'Major Mono Display';
+    color: var(--primary-color);
+}
+
+.info-p {
+    font-family: 'Cutive Mono';
+}
+
+.about-text {
+    border-left: 3px solid var(--secondary-color);
 }
 
 
