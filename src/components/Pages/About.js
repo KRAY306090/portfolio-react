@@ -9,13 +9,20 @@ const About = () => (
             </div>
             <div className="col-8 about-text">
                 <h2 className="section-title">About Me</h2>
+                <p className="pt-3">Hey there, I'm Kennadee!</p>
+                <p>I am a Full Stack Web Developer.</p>
+                
                 <p className="info-p">
-                    Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-                    ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-                    quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                    imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-                    diam, sit amet facilisis lectus blandit at.
-
+                I have a background in Mathematics and life-long dedication to learning. Effective at combining creativity and 
+                problem solving to develop user-friendly applications. Known among staff for strong wit and attention to 
+                detail no matter the complexity of the project.   
+                </p>
+                <p>
+                    My background in sales and customer service allows me to work effectively on a team and interact professionally with
+                    clients.
+                </p>
+                <p>
+                    I love the mental flow that problem solving through coding gives me. I can't wait to join your team!
                 </p>
             </div>
         </div>
