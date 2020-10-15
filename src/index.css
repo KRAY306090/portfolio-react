@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap');
 
 :root {
   --main-bg-color: #f7ede2;
   --title-color: #f28482;
-}
+  --secondary-color: #84a59d;
+} */
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -21,6 +23,11 @@ code {
 }
 
 h1 {
-  font-family: 'Bilbo Swash Caps';
+  font-family: 'Major Mono Display';
   color: var(--title-color);
 }
+.nav-item {
+  font-family: 'Cutive Mono';
+  color: var(--secondary-color);
+  text-decoration: none;
+} */

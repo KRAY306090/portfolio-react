@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Navigation from './Header/Navigation';
 import Header from './Header/index';
+import '../App.css';
 
 function Portfolio() {
     const [currentPage, handlePageChange] = useState('Home');
@@ -13,7 +14,7 @@ function Portfolio() {
   
     return (
       <div>
-          <Header></Header>
+        <Header></Header>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         <div>
           {
