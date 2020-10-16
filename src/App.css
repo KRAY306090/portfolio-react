@@ -5,6 +5,7 @@
     --title-color: #331e38;
     --primary-color: #331e38;
     --secondary-color: #70a0af;
+    --tertiary-color: #a0c1b9;
 }
 
 * {
@@ -61,9 +62,20 @@ textarea, input {
 }
 
 .form {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
 }
 
+button {
+    background-color: var(--primary-color);
+    color: white;
+    margin-bottom: 
+}
+
+form, label {
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    font-family: 'Cutive Mono';
+}
 
 
 

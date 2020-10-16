@@ -18,7 +18,7 @@ function PortfolioContainer() {
           case 'Contact': return <Contact/>;
           case 'Portfolio': return <Portfolio/>;
           case 'Resume': return <Resume/>;
-          default: return <Contact/>
+          default: return <About/>
       }
     };
   
