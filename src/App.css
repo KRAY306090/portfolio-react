@@ -56,6 +56,7 @@ i {
     color: var(--primary-color);
 }
 
+
 /* Extra small devices */
 @media(max-width:544px){
     .elastic-fai-group > .elastic-fai, .elastic-fai-xs{

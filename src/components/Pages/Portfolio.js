@@ -7,10 +7,12 @@ import projects from '../Project/projects.json';
 function Portfolio() {
    return (
      <Wrapper>
-       <h2 className="section-title"></h2>
+       <h2 className="section-title">Projects</h2>
+       <div class="container">
+       <div className="row">
        {
          projects.map(project => (
-           <Project
+           <Project 
            id={project.id}
            image={project.image}
            name={project.name}
@@ -19,7 +21,8 @@ function Portfolio() {
            />
          ))
        }
-
+       </div>
+       </div>
 
      </Wrapper>
    );

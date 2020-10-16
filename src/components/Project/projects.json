@@ -1,6 +1,41 @@
 [
     {
         "id": 1,
+        "image": "./images/doginfo.png",
+        "name": "DoggyPedia",
+        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
+        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+    },
+    {
+        "id": 2,
+        "image": "",
+        "name": "DoggyPedia",
+        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
+        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+    },
+    {
+        "id": 3,
+        "image": "",
+        "name": "DoggyPedia",
+        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
+        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+    },
+    {
+        "id": 4,
+        "image": "",
+        "name": "DoggyPedia",
+        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
+        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+    },
+    {
+        "id": 5,
+        "image": "",
+        "name": "DoggyPedia",
+        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
+        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+    },
+    {
+        "id": 6,
         "image": "",
         "name": "DoggyPedia",
         "github": "https://github.com/KRAY306090/yorkie-terrier.git",
