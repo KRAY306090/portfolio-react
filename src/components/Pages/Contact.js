@@ -33,21 +33,28 @@ function Contact() {
     return (
         <section className="container">
             <h2 className="section-title">Contact me</h2>
-            <form id="contact-form">
-                <div>
-                    <label htmlFor="name">Name:</label>
+            <div className="form">
+            <form className="form">
+                <div className="form">
+                    <label className="form" htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onChange={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
+                <div className="form">
+                    <label className="form" htmlFor="email">Email address:</label>
                     <input type="email" name="email" defaultValue={email} onChange={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
+                <div className="form">
+                    <label className="form" htmlFor="message">Message:</label>
                     <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
                 </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
                 <button type="submit">Submit</button>
             </form>
+            </div>
         </section>
     )
 }
