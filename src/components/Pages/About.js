@@ -4,10 +4,10 @@ import profile from '../../images/profile.jpg';
 const About = () => (
     <div className="container my-5 py-5 about-box">
         <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
                 <img src={profile} alt="profile" className="profile-pic"></img>
             </div>
-            <div className="col-8 about-text">
+            <div className="col-lg-8 col-sm-12 about-text">
                 <h2 className="section-title">About Me</h2>
                 <p className="pt-3">Hey there, I'm Kennadee!</p>
                 <p>I am a Full Stack Web Developer.</p>

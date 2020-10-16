@@ -13,8 +13,6 @@ function PortfolioContainer() {
     const [currentPage, handlePageChange] = useState('Home');
   
     const renderPage = () => {
-      // Add a switch statement that will return the appropriate component of the 'currentPage'
-      // YOUR CODE HERE
       switch (currentPage) {
           case 'About': return <About/>;
           case 'Contact': return <Contact/>;
