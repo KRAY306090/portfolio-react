@@ -45,7 +45,7 @@ h1 {
     color: var(--primary-color);
 }
 
-p, h3, ul, a {
+p, h3, ul, a, h5 {
     font-family: 'Cutive Mono';
 }
 
@@ -76,6 +76,15 @@ form, label {
     padding: 10px;
     font-family: 'Cutive Mono';
 }
+
+.project-box {
+    width: 50%;
+}
+
+.blue {
+    background-color: var(--tertiary-color);
+}
+
 
 
 

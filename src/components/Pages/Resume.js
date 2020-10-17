@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../images/Resume.pdf';
+import resume from '../../assets/Resume.pdf';
 
 const Resume = () => (
     <div class="container">

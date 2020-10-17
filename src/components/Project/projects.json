@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "image": "./images/doginfo.png",
+        "image": "doginfo.png",
         "name": "DoggyPedia",
         "github": "https://github.com/KRAY306090/yorkie-terrier.git",
         "deployed": "https://kray306090.github.io/yorkie-terrier/"
     },
     {
         "id": 2,
-        "image": "",
-        "name": "DoggyPedia",
-        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
-        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+        "image": "loginimg.jpeg",
+        "name": "Bone Apple Tea",
+        "github": "https://github.com/KRAY306090/project-two.git",
+        "deployed": "https://tranquil-ridge-22533.herokuapp.com/"
     },
     {
         "id": 3,
         "image": "",
-        "name": "DoggyPedia",
-        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
-        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+        "name": "Tech Blog",
+        "github": "https://github.com/KRAY306090/tech-blog.git",
+        "deployed": "https://polar-sands-13109.herokuapp.com/"
     },
     {
         "id": 4,
         "image": "",
-        "name": "DoggyPedia",
-        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
-        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+        "name": "Password Generator",
+        "github": "https://github.com/KRAY306090/password-generator.git",
+        "deployed": "https://kray306090.github.io/password-generator/"
     },
     {
         "id": 5,
         "image": "",
-        "name": "DoggyPedia",
+        "name": "Run Buddy",
         "github": "https://github.com/KRAY306090/yorkie-terrier.git",
         "deployed": "https://kray306090.github.io/yorkie-terrier/"
     },
     {
         "id": 6,
         "image": "",
-        "name": "DoggyPedia",
-        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
-        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+        "name": "Weather Dashboard",
+        "github": "https://github.com/KRAY306090/weather-dashboard.git",
+        "deployed": "https://kray306090.github.io/weather-dashboard/"
     }
 ]

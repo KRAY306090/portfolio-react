@@ -26,12 +26,10 @@ function PortfolioContainer() {
       <div>
         <Header></Header>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div>
+        
           {
            renderPage()
           }
-          
-        </div>
         <Footer></Footer>
       </div>
     );
