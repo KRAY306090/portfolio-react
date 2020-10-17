@@ -45,7 +45,7 @@ h1 {
     color: var(--primary-color);
 }
 
-p {
+p, h3, ul, a {
     font-family: 'Cutive Mono';
 }
 
@@ -76,6 +76,7 @@ form, label {
     padding: 10px;
     font-family: 'Cutive Mono';
 }
+
 
 
 

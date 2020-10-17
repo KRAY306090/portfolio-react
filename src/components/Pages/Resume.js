@@ -1,11 +1,22 @@
 import React from 'react';
+import resume from '../../images/Resume.pdf';
 
 const Resume = () => (
-    <div>
-        <h2>Resume</h2>
-        <p>
-            Check out my Resume below.
+    <div class="container">
+        <h2 className="section-title">Resume</h2>
+        <p className="py-3">
+            Download my resume <span><a href={resume} download>here</a></span>.
         </p>
+        
+
+        <h3 className="mt-3">Skills</h3>
+        <ul className="pb-5">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+        </ul>
+
     </div>
 );
 
