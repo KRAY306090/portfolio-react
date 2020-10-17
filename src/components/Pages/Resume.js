@@ -14,7 +14,13 @@ const Resume = () => (
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+            <li>jQuery</li>
+            <li>C++</li>
             <li>SQL</li>
+            <li>API's</li>
+            <li>MERN Stack</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
         </ul>
 
     </div>
