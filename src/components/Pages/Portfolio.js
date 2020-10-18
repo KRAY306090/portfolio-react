@@ -6,9 +6,9 @@ import projects from '../Project/projects.json';
 function Portfolio() {
   
    return (
-     <div className="container">
+     <div className="container my-5">
        <h2 className="section-title">Projects</h2>
-       <div style={{float: "left"}}>
+       <div className="row">
        {
          projects.map(project => (
            <Project 
