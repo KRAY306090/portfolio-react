@@ -26,15 +26,15 @@ function Contact() {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
     }
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-    }
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     console.log(formState);
+    // }
     return (
         <section className="container">
             <h2 className="section-title">Contact me</h2>
-            <div className="form">
-            <form className="form">
+            <div className="row p-3 mb-5">
+            <form className="form col-sm-12 col-md-5">
                 <div className="form">
                     <label className="form" htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onChange={handleChange} />
@@ -49,7 +49,7 @@ function Contact() {
                 </div>
                 {errorMessage && (
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <p className="form error-text">{errorMessage}</p>
                     </div>
                 )}
                 <button type="submit">Submit</button>
