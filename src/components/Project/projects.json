@@ -23,16 +23,16 @@
     {
         "id": 4,
         "image": "password.jpg",
-        "name": "Password Generator",
-        "github": "https://github.com/KRAY306090/password-generator.git",
-        "deployed": "https://kray306090.github.io/password-generator/"
+        "name": "Decidr",
+        "github": "https://github.com/KRAY306090/decision-maker.git",
+        "deployed": "https://git.heroku.com/murmuring-shore-67140.git"
     },
     {
         "id": 5,
         "image": "runBuddy.jpg",
         "name": "Run Buddy",
-        "github": "https://github.com/KRAY306090/yorkie-terrier.git",
-        "deployed": "https://kray306090.github.io/yorkie-terrier/"
+        "github": "https://github.com/KRAY306090/run-buddy.git",
+        "deployed": "https://kray306090.github.io/run-buddy/"
     },
     {
         "id": 6,
