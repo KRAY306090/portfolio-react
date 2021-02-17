@@ -25,7 +25,7 @@
         "image": "password.jpg",
         "name": "Decidr",
         "github": "https://github.com/KRAY306090/decision-maker.git",
-        "deployed": "https://git.heroku.com/murmuring-shore-67140.git"
+        "deployed": "https://murmuring-shore-67140.herokuapp.com/login"
     },
     {
         "id": 5,
